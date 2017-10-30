@@ -1,11 +1,17 @@
+/*estilos generales*/
+
 body {
   font-family: 'Droid Sans Mono', monospace;
   font-weight: bold;
 }
 
+/*estilos del encabezado del cuadro*/
+
 .title {
   padding-left: 15px
 }
+
+/*estilos del contenedor*/
 
 .box {
   width: 680px;
