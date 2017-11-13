@@ -1,33 +1,41 @@
 /*estilos generales*/
 
 body {
+  background-color: #EEF3C4;
   font-family: 'Droid Sans Mono', monospace;
   font-weight: bold;
 }
 
-/*estilos del encabezado del cuadro*/
+/*estilos del encabezado del header*/
 
-.title {
-  padding-left: 15px
+select{
+  height: 30px;
+  width: 200px;
+  background-color: #fcab32;
+  border-radius: 10px;
+  border-style: none;
+  margin: 10px 500px;
 }
 
-/*estilos del contenedor*/
-
-.box {
-  width: 680px;
-  height: 500px;
-  /*outline: 1px solid red = para marcar el contorno de la caja */
-  padding: 10px;
-}
-
-.marker {
-  width: 70px;
-  height: 5px;
-  background-color: #364454;
-  margin-left: 15px
+section{
+  margin: 10px 220px;
 }
 
 .student {
-  float: left;
+  display: inline-block;
   margin: 10px;
+}
+
+img{
+  width: 270px;
+}
+img:hover{
+  border-radius: 100%;
+  transition: 1s;
+}
+.show-students{
+  display: block;
+}
+.hide-students{
+  display: none;
 }
