@@ -7,7 +7,22 @@ body {
 }
 
 /*estilos del encabezado del header*/
-
+header{
+  height: 150px;
+}
+header img{
+  height: 80px;
+  width: 200px;
+  margin: 20px;
+  display: inline;
+}
+h1{
+text-align:right;
+font-size: 2.5em;
+position: relative;
+bottom: 100px;
+color:#ce9908;
+}
 select{
   height: 30px;
   width: 200px;
